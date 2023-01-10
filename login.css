@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-for-all {
+  margin-top: 6%;
+}
+
+/* LOGIN PAge */
+.login-page {
+  overflow-x: hidden;
+}
+
+/* FORM */
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.all-form {
+  display: block;
+  width: 400px;
+}
+
+.form-group > input {
+  padding: 7px 2px;
+  width: 100%;
+}
